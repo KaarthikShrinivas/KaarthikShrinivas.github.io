@@ -1,0 +1,566 @@
+<!--Homepage-->
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of V Kaarthik Shrinivas - Senior Backend Engineer specializing in Java, Spring Boot, microservices, and high-throughput systems.">
+    <title>V Kaarthik Shrinivas | Senior Backend Engineer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>Kaarthik<span class="logo-bracket">/&gt;</span>
+            </a>
+            
+            <div class="nav-links-wrapper">
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#terminal" class="nav-link">Terminal Sandbox</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#awards" class="nav-link">Awards</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Dark/Light Mode" class="theme-btn">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Open Mobile Menu" id="mobile-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="ambient-glowing-orbs">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    <span>Open to Backend Engineering Roles</span>
+                </div>
+                <h1 class="hero-title">V Kaarthik Shrinivas</h1>
+                <h2 class="hero-subtitle">
+                    <span class="typing-text">Senior Software Engineer</span>
+                    <span class="typed-cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    Results-driven Backend Engineer with 3+ years of experience specializing in Java and Spring Boot. 
+                    Proven track record in optimizing high-throughput order management systems, designing multi-tenant architectures, and building event-driven microservices.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fa-solid fa-paper-plane"></i> Get In Touch
+                    </a>
+                    <a href="#terminal" class="btn btn-outline">
+                        <i class="fa-solid fa-terminal"></i> Try Terminal Sandbox
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/KaarthikShrinivas" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/kaarthik-shrinivas-341a561b1" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/Kinglucifer/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode" class="social-link">
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+                    <a href="https://www.hackerrank.com/profile/KAARTHIKKING" target="_blank" rel="noopener noreferrer" aria-label="HackerRank" class="social-link">
+                        <i class="fa-brands fa-hackerrank"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <a href="#about" aria-label="Scroll Down">
+                <i class="fa-solid fa-chevron-down animate-bounce"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- About & Stats Section -->
+        <section id="about" class="section scroll-fade">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Summary</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-card card">
+                        <div class="about-icon-header">
+                            <i class="fa-solid fa-gears card-icon"></i>
+                        </div>
+                        <h3>Optimized Architectures</h3>
+                        <p>
+                            Specialized in building and scaling high-throughput order management systems, multi-tenant databases, and custom libraries. Focused on decreasing database bottlenecks, reducing boilerplate, and developing resilient APIs.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card card">
+                        <div class="about-icon-header">
+                            <i class="fa-solid fa-network-wired card-icon"></i>
+                        </div>
+                        <h3>Event-Driven Systems</h3>
+                        <p>
+                            Expert in event-driven, asynchronous workflows using Apache Kafka and RabbitMQ. Designed real-time notification microservices (SMS, Email, WhatsApp) that eliminate redundancy and optimize third-party API costs.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Stats Grid -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="3">3+</span>
+                        <span class="stat-label">Years of Experience</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="98">98%</span>
+                        <span class="stat-label">Same-Day Refund Processing</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="30">30%</span>
+                        <span class="stat-label">Latency Reduction in APIs</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="80">80%</span>
+                        <span class="stat-label">Boilerplate Code Reduced</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section section-alt scroll-fade">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Languages -->
+                    <div class="skills-category-card card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Languages</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">Java</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 95%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Frameworks & Tools -->
+                    <div class="skills-category-card card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-cube"></i>
+                            <h3>Frameworks &amp; Tools</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">Spring Boot</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 95%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">Microservices Architecture</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">Maven &amp; Git</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">Postman &amp; Graylogs</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">AWS S3</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Databases & Queues -->
+                    <div class="skills-category-card card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Databases &amp; Message Queues</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">MySQL &amp; MongoDB</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">Apache Kafka</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">RabbitMQ</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">Aerospike</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section scroll-fade">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Work Experience</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="timeline">
+                    <!-- Jubilant Foodworks -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jan 2023 – Present</div>
+                        <div class="timeline-content card">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="experience-role">Senior Software Engineer - Backend</h3>
+                                    <h4 class="experience-company">Jubilant Foodworks</h4>
+                                </div>
+                                <span class="experience-location"><i class="fa-solid fa-location-dot"></i> Gurugram, India</span>
+                            </div>
+                            <ul class="experience-points">
+                                <li>Re-engineered complex refund workflows, achieving a <strong>98% same-day refund processing rate</strong>.</li>
+                                <li>Refactored and optimized payment APIs (Saved Cards, Order History, AOD Flows), reducing API latency by <strong>30%</strong> and improving transaction success rates.</li>
+                                <li>Designed and implemented a modular <strong>multi-tenancy library</strong> for MySQL, MongoDB, Bean creation, and Aerospike, standardizing data access across microservices and reducing boilerplate code by <strong>80%</strong>.</li>
+                                <li>Optimized after-order workflows (tracking, notifications, and discounts), significantly reducing database load and latency during peak ordering hours.</li>
+                                <li>Redesigned SMS delivery logic and automated invoice generation, eliminating redundant API calls and lowering operational costs.</li>
+                                <li>Integrated real-time tracking and WhatsApp notification flows, significantly reducing customer support ticket volumes.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Samsung R&D -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Dec 2021 – July 2022</div>
+                        <div class="timeline-content card">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="experience-role">Research Intern (Prism Developer)</h3>
+                                    <h4 class="experience-company">Samsung R&D Institute India</h4>
+                                </div>
+                                <span class="experience-location"><i class="fa-solid fa-location-dot"></i> Bangalore, India</span>
+                            </div>
+                            <ul class="experience-points">
+                                <li>Developed a high-precision hand gesture detection prototype using Ultra-Wideband (UWB) sensors and CNNs (MesoNet) for smart home/device control, achieving enhanced gesture recognition accuracy.</li>
+                                <li>Awarded a <strong>Certificate of Excellence</strong> for delivering production-ready, highly optimized sensor data processing pipelines.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- IIITDM Kancheepuram -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">June 2021 – July 2021</div>
+                        <div class="timeline-content card">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="experience-role">Research Intern</h3>
+                                    <h4 class="experience-company">IIITDM Kancheepuram</h4>
+                                </div>
+                                <span class="experience-location"><i class="fa-solid fa-location-dot"></i> Chennai, India</span>
+                            </div>
+                            <ul class="experience-points">
+                                <li>Optimized word tokenization and word embedding algorithms using Natural Language Processing (NLP) and Transfer Learning techniques to boost text-processing pipeline efficiency.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Terminal Sandbox Section -->
+        <section id="terminal" class="section section-alt scroll-fade">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Interactive Terminal Sandbox</h2>
+                    <div class="section-underline"></div>
+                    <p class="section-subtitle">Query my career details interactively. Type commands in the terminal below or click the quick-actions.</p>
+                </div>
+                
+                <div class="terminal-container">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="t-btn close"></span>
+                            <span class="t-btn minimize"></span>
+                            <span class="t-btn maximize"></span>
+                        </div>
+                        <span class="terminal-title">visitor@kaarthik-backend: ~</span>
+                        <div class="terminal-status">
+                            <span class="pulse-dot green"></span>
+                            <span class="status-text">Online</span>
+                        </div>
+                    </div>
+                    
+                    <div class="terminal-body" id="terminal-body">
+                        <div class="terminal-output">
+                            <p class="terminal-welcome">Welcome to V Kaarthik Shrinivas's CLI Portfolio.</p>
+                            <p class="terminal-tip">Type <span class="cmd-highlight">help</span> to view all available commands.</p>
+                            <p class="terminal-line-break"></p>
+                        </div>
+                        
+                        <div class="terminal-input-line">
+                            <span class="terminal-prompt">visitor@kaarthik-backend:~$</span>
+                            <input type="text" id="terminal-input" autocomplete="off" autofocus aria-label="Terminal Input">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="terminal-suggestions">
+                    <span class="suggestion-label">Quick Commands:</span>
+                    <button class="terminal-pill" data-cmd="help">help</button>
+                    <button class="terminal-pill" data-cmd="skills">skills</button>
+                    <button class="terminal-pill" data-cmd="experience">experience</button>
+                    <button class="terminal-pill" data-cmd="education">education</button>
+                    <button class="terminal-pill" data-cmd="awards">awards</button>
+                    <button class="terminal-pill" data-cmd="contact">contact</button>
+                    <button class="terminal-pill" data-cmd="clear">clear</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section scroll-fade">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="projects-container">
+                    <div class="project-card card">
+                        <div class="project-header">
+                            <div class="project-meta">
+                                <span class="project-type">Machine Learning / Image Processing</span>
+                                <h3 class="project-title">Signature Fraudulent Detection</h3>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/KaarthikShrinivas" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Built a highly precise CNN-based (Convolutional Neural Network) classification system to detect forged signatures. Integrated computer vision algorithms ORB (Oriented FAST and Rotated BRIEF) and SIFT (Scale-Invariant Feature Transform) for high-performance feature extraction and keypoint matching.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">CNN</span>
+                            <span class="tag">ORB</span>
+                            <span class="tag">SIFT</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Honors & Awards Section -->
+        <section id="awards" class="section section-alt scroll-fade">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Honors &amp; Achievements</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="awards-grid">
+                    <!-- Chairperson Award -->
+                    <div class="award-card card">
+                        <div class="award-badge-container">
+                            <i class="fa-solid fa-trophy award-icon primary"></i>
+                        </div>
+                        <h3 class="award-title">Chairperson Award</h3>
+                        <p class="award-org">Jubilant Foodworks</p>
+                        <p class="award-description">
+                            Highest internal recognition for business impact and technical excellence, awarded for core backend optimizations of the order management system.
+                        </p>
+                    </div>
+
+                    <!-- 4 Gold & 1 Silver -->
+                    <div class="award-card card">
+                        <div class="award-badge-container">
+                            <i class="fa-solid fa-medal award-icon gold"></i>
+                        </div>
+                        <h3 class="award-title">4 Gold &amp; 1 Silver Awards</h3>
+                        <p class="award-org">Jubilant Foodworks</p>
+                        <p class="award-description">
+                            Awarded multiple times for consistent high performance, architectural ownership, and exceptional technical leadership during product deliverables.
+                        </p>
+                    </div>
+
+                    <!-- Certificate of Excellence -->
+                    <div class="award-card card">
+                        <div class="award-badge-container">
+                            <i class="fa-solid fa-certificate award-icon info"></i>
+                        </div>
+                        <h3 class="award-title">Certificate of Excellence</h3>
+                        <p class="award-org">Samsung Prism Project</p>
+                        <p class="award-description">
+                            Recognized for outstanding contributions and delivering production-ready, highly optimized sensor data processing pipelines for UWB gestures.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Education Sub-section -->
+                <div class="education-block card">
+                    <div class="education-header-wrapper">
+                        <i class="fa-solid fa-graduation-cap education-icon"></i>
+                        <div>
+                            <h3 class="education-title">Education</h3>
+                            <p class="education-details">B.Tech. in Computer Science and Engineering</p>
+                        </div>
+                    </div>
+                    <div class="education-meta">
+                        <div class="edu-item">
+                            <span class="edu-label">Institution:</span>
+                            <span class="edu-val">Vellore Institute of Technology (VIT), Chennai</span>
+                        </div>
+                        <div class="edu-item">
+                            <span class="edu-label">Duration:</span>
+                            <span class="edu-val">July 2019 – May 2023</span>
+                        </div>
+                        <div class="edu-item">
+                            <span class="edu-label">Academic Standing:</span>
+                            <span class="edu-val highlight">CGPA: 9.29 / 10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section scroll-fade">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="contact-wrapper">
+                    <div class="contact-info card">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out for career opportunities, collaboration, or to discuss backend system design!</p>
+                        
+                        <div class="contact-details-list">
+                            <div class="contact-detail-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <span>Email</span>
+                                    <a href="mailto:kaarthikofficial02@gmail.com">kaarthikofficial02@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <span>Phone</span>
+                                    <a href="tel:+916379809820">+91 6379809820</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <span>Location</span>
+                                    <p>Chennai, Tamil Nadu, India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 V Kaarthik Shrinivas. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/KaarthikShrinivas" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/kaarthik-shrinivas-341a561b1" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://leetcode.com/u/Kinglucifer/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
